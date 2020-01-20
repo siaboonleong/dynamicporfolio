@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="A portfolio page for the  Full Stack Developer raised in Singapore, Sia Boon Leong currently working in the Singapore Fusionpolis area. React.js, Redux, Node.js, Express.js, MongoDB, MySQL proficient.">
+  <meta property="og:url"                 content="https://siaboonleong.github.io/dynamicporfolio" />
+  <meta property="og:title"               content="Sia BoonLeong - Web Developer Portfolio" />
+  <meta property="og:description"         content="Full stack web developer specializing in MERN stack. React, Redux, Node, Express" />
+  <meta property="og:site_name"           content="Sia BoonLeong Web Developer Portfolio" />
+  <meta property="og:image"               content="https://siaboonleong.github.com/dynamicporfolio/assets/images/me.jpg" />
+	<title>SIA BOON LEONG - Full Stack Web Developer</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Vollkorn" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <button class="splash-button upper-left" id="button-about">About</button>
+    <button class="splash-button upper-right" id="button-work">Work</button>
+    <button class="splash-button lower-left" id="button-contact">Contact</button>
+    <button class="splash-button button-hidden" id="button-reset">×</button>
+    <div id="splash-bg">
+      <div class="splash-header">
+        <div class="header-name">SIA BOONLEONG <span>Full Stack Developer</span></div>
+        <div class="header-about">About</div>
+        <div class="header-work">Portfolio</div>
+        <div class="header-contact">Contact</div>
+      </div>
+    </div>   
+    <div id="work-container">
+      <div class="work-container-inner" id="work-scrollable">
+        <figure class="work-card">
+          <img src="./assets/images/sortabletables.jpg" alt="sortable tables">
+          <figcaption>
+            <div>Portfolio</div>
+            <a href="https://github.com/siaboonleong/portfolio"><i class="fa fa-code" aria-hidden="true"></i></a>
+            <a href="https://siaboonleong.github.io/portfolio/"><i class="fa fa-desktop" aria-hidden="true"></i></a>
+          </figcaption>
+          <div>
+            A portfolio website using html and css template 
+          </div>
+        </figure>
+        <figure class="work-card">
+          <img src="./assets/images/bokehfy.png" alt="bokehfy">
+          <figcaption>
+            <div>bokehfy</div>
+            <a href="https://github.com/BtheGit/bokehfy"><i class="fa fa-code" aria-hidden="true"></i></a>
+            <a href="https://bthegit.github.io/bokehfy/"><i class="fa fa-desktop" aria-hidden="true"></i></a>
+          </figcaption>
+          <div>
+            Open source library to add a visual effect to any DOM element using HTML5 canvas.
+          </div>
+        </figure>
+        <figure class="work-card">
+          <img src="./assets/images/doodledetectives.png" alt="Doodle Detectives">
+          <figcaption>
+            <div>Trivia App</div>
+            <a href="https://github.com/samtheBrave/trivia_app"><i class="fa fa-code" aria-hidden="true"></i></a>
+            <a href="https://triviafrontend.herokuapp.com/"><i class="fa fa-desktop" aria-hidden="true"></i></a>
+          </figcaption>
+          <div>
+            An online real-time multiplayer trivia game built using React, Node, and python backend.
+          </div>
+        </figure>
+     
+      </div>
+    </div>
+    <div id="about-container">
+      <div class="about-inner-container">
+        <figure class="about-header">
+          <img src="./assets/images/me.jpg" alt="Sia BoonLeong. The people's choice.">
+        </figure>
+        <div class="about-body">
+          <div>
+            Goals
+          </div>
+          <p>
+            Addressing real world problems and improving the innovation industry with the use of new technology.
+          </p>
+          <div>
+            Experience
+          </div>
+          <p>
+            Avid follower of current tech trends and constant keeping abreast in learning new tech framework in the market.  Current projects includes Natural Language Processing with gensim Python framework and Visualisation using gephi network software. Known to be a jack of all trades in relevant programming languages including popular but recent technology like AI framework Tensorflow. Previous projects inlcudes cloud technology, mobile android apps and web technology including Spring Java and ROR. 
+          </p>
+          <div>
+            Toolset
+          </div>
+          <p>
+            Javascript (ES6+), React, Redux, RxJS, Jest, Node, Express, Socket.io, Webpack, MongoDB, jQuery, MySQL, CSS3, SASS, HTML5, Agile, Scrum, Git, Tensorflow, Python, Pytorch
+          </p>
+        </div>
+      </div>
+    </div> 
+    <div id="contact-container">
+      <div class="contact-main">
+        <div class="contact-email">
+          <a href="mailto:siaboonleong@gmail.com">
+            siaboonleong@gmail.com
+          </a>
+        </div>
+        <div class="contact-phone">
+          <a href="tel:+65914687272">
+            (65) 91468727
+          </a>
+        </div>
+      </div>
+      <div class="contact-icon">
+        <a href="https://www.linkedin.com/in/siaboonleong/">
+          <i class="fa fa-linkedin"></i> 
+        </a>
+      </div>
+      <div class="contact-icon">
+        <a href="https://github.com/siaboonleong">
+          <i class="fa fa-github"></i>  
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bokehfy@0.2.2/lib/bokehfy.min.js"></script>  
+	<script src="index.js"></script>
+</body>
+</html>
